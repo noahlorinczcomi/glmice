@@ -2,7 +2,7 @@
 #'
 #' Returns a specificity estimate when comparing your predicted classifications to observed classifications.
 #' @param predicted this parameter can either take (i) a 2x2 table/confusion matrix of predictions and observed classes (with predictions displayed on the vertical, left side), or (ii) your predicted classifications.
-#' @param actual if param predicted is not a table, this parameter will take your actual (observed) values of your outcome (must be binary, not the predicted probabilities)
+#' @param actual if param predicted is not a table, this parameter will take your actual (observed) values of your outcome.
 #' @return specificity estimate
 #' @export
 
