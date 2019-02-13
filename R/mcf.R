@@ -5,8 +5,7 @@
 #' @return mcfs2: McFadden's pseudo r-squared
 #' @export
 
-mcf <- function (model) 
-{
+mcf <- function (model) {
   iterations <- model$call1$m
   null_ds <- as.numeric()
   res_ds <- as.numeric()
